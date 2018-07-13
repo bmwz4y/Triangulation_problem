@@ -1,0 +1,15 @@
+Triangulation problem: Write a parallel algorithm to compute the number of triangles in an 
+undirected graph using MPI. First use np = 1 and then np=20 and calculate the speedup. Each 
+process computes the triangles in N nodes. The format of the input file is as in the following:
+Example: this sample file has 2 triangles.
+0  1
+0    2
+0    3
+1    2
+2    3
+2    4
+3    5
+4    5
+Submit:
+• A soft copy of your code and sample execution runs (screenshots) showing the following:
+1-  The execution time and speedup to perform the task using np=1 and np =20
